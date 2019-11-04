@@ -1,0 +1,38 @@
+body {
+ background-color: lightPink;
+}
+
+#display {
+  display: flex;
+  justify-content: center;
+   align-items: center;
+  border: 2px solid black;
+  border-radius: 3px;
+  margin: auto;
+  font-size: 5vh;
+  height: 100px;
+  background-color: lightBlue;
+}
+
+#drum-pads {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.drum-pad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightBlue;
+  border-radius: 2px;
+  font-size: 3vw;
+  border: 1px solid black;
+  width: 80px;
+  height: 7vw;
+  margin-right: 5px;
+}
+p {
+  margin-top: 1vh;
+}
